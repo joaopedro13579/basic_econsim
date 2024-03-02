@@ -82,4 +82,5 @@ int main(){
     cout<<"production: "<<production<<endl;
     textFile<<demand<<";"<<price<<";"<<production<<endl;
     }
+    textFile.close();
 }
